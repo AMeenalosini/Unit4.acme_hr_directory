@@ -1,0 +1,21 @@
+{
+  "name": "unit4.acme_hr_directory",
+  "version": "1.0.0",
+  "description": "BLOCK33-WORKSHOP",
+  "main": "server.js",
+  "scripts": {
+    "start:dev":"nodemon server.js",
+    "start":"node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
